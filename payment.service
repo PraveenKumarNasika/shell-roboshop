@@ -4,13 +4,12 @@ Description=Payment Service
 [Service]
 User=root
 WorkingDirectory=/app
-// highlight-start
+
 Environment=CART_HOST=cart.nasika.site
 Environment=CART_PORT=8080
 Environment=USER_HOST=user.nasika.site
 Environment=USER_PORT=8080
-Environment=AMQP_HOST=rabbitmq.daws90s.site
-// highlight-end
+Environment=AMQP_HOST=rabbitmq.nasika.site
 Environment=AMQP_USER=roboshop
 Environment=AMQP_PASS=roboshop123
 
